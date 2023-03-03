@@ -8,14 +8,18 @@
     <title>CARA CARA </title>
 </head>
 <body>
-    <header>
+    <header class="top nav">
         <nav>
-            <h1>CARA <img src="assets/icons8-pottery-96.png" width = "25px"> CARA</h1>  
-            <div class="top nav">
+            <div>
                 <a class="active" href="#home">HOME</a>
                 <a href="#about">ABOUT</a>
                 <a href="#products">PRODUCTS</a>
                 <a href="#contact">CONTACT</a>
+            </div>
+            <div>
+                <h1>CARA <img src="assets/icons8-pottery-96.png" width = "25px"> CARA</h1>  
+            </div>
+            <div>
                 <div class="search-containter">
                     <form action="/action_page.php">
                         <input type ="text">
@@ -23,22 +27,22 @@
                     </form>
                 </div>
                 <a href="#cart">CART</a>
-
             </div>
         </nav>
+        <hr>
     </header>
     <main>
-        <section class="home">
-            <img src="./assets/earl-wilcox-y3W0CzO063w-unsplash-alt.jpg" width="1500px" height="500"/>
+        <section class="home" id="home">
+            
             <h2 class="first-txt"> CERAMICS CRAFTED BY HAND...
             </h2>
             <h2 class="second-txt">
                 ...FROM THE GROUND UP
         </h2>
-    </section>
-    <section class="about">
+        </section>
+        <section class="about">
             <h2> ABOUT US</h2>
-
+            <!-- TODO: NEED IMAGES -->
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor 
                 incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, 
                 quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
@@ -67,26 +71,24 @@
                 Risus pretium quam vulputate dignissim suspendisse in est ante. 
                 In hac habitasse platea dictumst quisque. Eget mauris pharetra et ultrices.</p>
 
-            </section>
-            <section class="Products">
+        </section>
+        <section class="Products">
             <h2>OUR PRODUCTS</h2>
-            
-            </section>
-
-            <section class="Contact">
+            <!-- TODO: NEED product container and 9 product cards -->
+        </section>
+        <section class="Contact">
             <h2>CONTACT US</h2>
 
             <form>
-                Email <input type="text" name="email">
-            </form>
-
-            <form>
+                <label for="emailinput">Email</label>
+                 <input type="text" name="email" id="emailinput">
                 Message <input type="text">
+                <input type="submit">Send</a> 
             </form>
-            <a href="SEND">Send</a> 
         </section>
     </main>
     <footer>
+        <!-- TODO: Need nav similar to header (3 divs holding items) -->
         <h1>CARA <img src="assets/icons8-pottery-96.png" width = "25px">CARA</h1>  
         Lorem ipsum dolor sit amet. Et dolore magna aliqua. Copyright 2015 - 2020
     </footer>

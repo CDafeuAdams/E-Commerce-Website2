@@ -10,3 +10,9 @@ html {
     box-sizing: border-box;
     font-size: 62.5%;
 }
+
+.home{
+    background-image: url("./assets/earl-wilcox-y3W0CzO063w-unsplash-alt.jpg");
+    color: white;
+    height: 50rem;
+}
