@@ -17,8 +17,19 @@ html {
     height: 50rem;
 }
 
-.flex-container {
+.Products {
     display: flex;
     flex-wrap: wrap;
-    height: 300px;
+    flex-direction: row;
+    justify-content: center;
+    align-content: flex-start;
+    height: 20px;
+}
+
+.footer-widgets .widget_nave_menu li {
+    display: inline-block;
+    text-align: right;
+    padding: 3px;
+    background-color: #bf7631;
+    color: white;
 }
